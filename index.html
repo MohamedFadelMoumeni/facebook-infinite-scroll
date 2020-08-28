@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facbook infinite-scroll feed</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Facebook Infinite Scroll Posts</h1>
+        <div class="feed-container" id="feed-container">
+            <div class="wrap-container" id="wrap-container">
+                <div class="nav-item" id="nav-item">
+                    <div class="info" id="info">
+                        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="" id="img-profile">
+                        <div class="details">
+                            <div id="name-profile">Mohamed</div>
+                            <span class="post-date">2020-08-09T20:09:01-04:00</span>
+                        </div>
+
+                    </div>
+                    <a href="#"><img src="more.svg" id="ellipse" /></a>
+                </div>
+                <!--Post Container-->
+                <div class="post-container" id="post-container">
+                    <h4 id="v">Lorem ipsum dolor sit amet.</h4>
+                    <img id="post-img"
+                        src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="">
+                </div>
+                <!--End of Post Container-->
+                <!--Comment container-->
+                <div class="comment-container" id="comment-container">
+                    <img id="post-img"
+                        src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="">
+                    <input type="text" name="" id="input_comment" placeholder="Your Comment">
+                </div>
+                <!--End of Comment container-->
+            </div>
+
+
+
+
+        </div>
+        <div class="loader" id="loader" hidden>
+            <h3>Loading ..</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
